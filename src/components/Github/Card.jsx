@@ -11,7 +11,6 @@ function Card({data}) {
 // downloads_url
 // language
 // description
-// console.log(data.)
   return (
     <>
         <Link

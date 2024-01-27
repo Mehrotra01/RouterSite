@@ -1,7 +1,7 @@
 import "./index.css";
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Layout from "./layout";
+import Layout from "./Layout";
 import {
   Route,
   RouterProvider,

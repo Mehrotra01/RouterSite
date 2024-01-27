@@ -32,14 +32,14 @@ function Github() {
         <h1 className=" font-serif text-5xl text-center">
           Github
         </h1>
-        <div className="flex">
+        <div className="flex m-5">
           <div className="w-2/3 m-5 ">
             <img src={githubUser.avatar_url} alt="Git picture" width={450} />
           </div>
           <div className="m-5 font-serif ">
             <div className="text-center">
-              <div class="text-5xl font-extrabold ...">
-                <span class="bg-clip-text text-transparent bg-[url('/bg3.jpeg')]">
+              <div className="text-5xl font-extrabold ...">
+                <span className="bg-clip-text text-transparent bg-[url('/bg3.jpeg')]">
                 This is {githubUser.login}
                 </span>
               </div>
